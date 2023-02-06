@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "ts-standard"
   },
   "devDependencies": {
     "@types/chai": "^4.3.4",
