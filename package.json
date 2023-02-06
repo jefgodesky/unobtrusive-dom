@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "test": "mocha",
+    "test": "npm-run-all lint mocha",
+    "mocha": "mocha",
     "lint": "ts-standard"
   },
   "devDependencies": {
