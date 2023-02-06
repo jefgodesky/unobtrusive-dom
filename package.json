@@ -1,5 +1,23 @@
 {
+  "name": "unobtrusive-dom",
+  "version": "1.0.0",
   "type": "module",
+  "description": "A collection of common unobtrusive DOM manipulation methods.",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefgodesky/unobtrusive-dom.git"
+  },
+  "homepage": "https://github.com/jefgodesky/unobtrusive-dom",
+  "bugs": {
+    "url": "https://github.com/jefgodesky/unobtrusive-dom/issues"
+  },
+  "author": {
+    "name": "Jason Godesky",
+    "email": "jefgodesky@gmail.com",
+    "url": "https://github.com/jefgodesky"
+  },
+  "license": "GPL-3.0-only",
   "scripts": {
     "test": "npm-run-all lint mocha",
     "mocha": "mocha",
