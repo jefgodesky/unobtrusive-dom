@@ -27,6 +27,14 @@ describe('create', () => {
     expect(el.innerText).to.equal(text)
   })
 
+  it('creates an element with children', () => {
+    const text = 'Hello, world!'
+    const child = create({ tag: 'p', text })
+    const parent = create({ tag: 'div', children: [child] })
+    expect(parent.outerHTML).to.equal('<div><p></p></div>')
+    expect((parent.children[0] as HTMLParagraphElement)?.innerText).to.equal(text)
+  })
+
   it('can do it all at once', () => {
     const classes = ['a', 'b', 'c']
     const options = { tag: 'p', classes: classes.slice(0, 2), attrs: { id: 'test' }, text: 'Hello, world!' }
