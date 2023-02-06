@@ -14,4 +14,10 @@ describe('create', () => {
     const checks = classes.map(className => hasClass(el, className))
     expect(JSON.stringify(checks)).to.equal('[true,true,false]')
   })
+
+  it('creates an element with the attributes given', () => {
+    const attrs = { id: 'elem-id' }
+    const el = create('p', [], attrs)
+    expect(el.getAttribute('id')).to.equal(attrs.id)
+  })
 })
