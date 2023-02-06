@@ -1,4 +1,13 @@
-export default function create (tag: string, classes?: string[], attrs?: { [key: string]: string }): HTMLElement {
+interface CreateOptions {
+  tag: string
+  classes?: string[]
+  attrs?: {
+    [key: string]: string
+  }
+}
+
+export default function create (options: CreateOptions): HTMLElement {
+  const { tag, classes, attrs } = options
   const el = document.createElement(tag)
   if (classes !== undefined) el.classList.add(...classes)
   if (attrs !== undefined) {
@@ -8,3 +17,5 @@ export default function create (tag: string, classes?: string[], attrs?: { [key:
   }
   return el
 }
+
+export { CreateOptions }
