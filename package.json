@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "A collection of common unobtrusive DOM manipulation methods.",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jefgodesky/unobtrusive-dom.git"
