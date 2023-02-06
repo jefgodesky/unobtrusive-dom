@@ -21,7 +21,8 @@
   "scripts": {
     "test": "npm-run-all lint mocha",
     "mocha": "mocha",
-    "lint": "ts-standard"
+    "lint": "ts-standard",
+    "build": "npx tsc"
   },
   "devDependencies": {
     "@types/chai": "^4.3.4",
