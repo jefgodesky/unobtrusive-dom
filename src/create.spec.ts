@@ -26,4 +26,15 @@ describe('create', () => {
     const el = create({ tag: 'p', text })
     expect(el.innerText).to.equal(text)
   })
+
+  it('can do it all at once', () => {
+    const classes = ['a', 'b', 'c']
+    const options = { tag: 'p', classes: classes.slice(0, 2), attrs: { id: 'test' }, text: 'Hello, world!' }
+    const el = create(options)
+    const checks = classes.map(className => hasClass(el, className))
+    expect(el.tagName).to.equal(options.tag.toUpperCase())
+    expect(JSON.stringify(checks)).to.equal('[true,true,false]')
+    expect(el.getAttribute('id')).to.equal(options.attrs.id)
+    expect(el.innerText).to.equal(options.text)
+  })
 })
