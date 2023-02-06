@@ -20,4 +20,10 @@ describe('create', () => {
     const el = create({ tag: 'p', attrs })
     expect(el.getAttribute('id')).to.equal(attrs.id)
   })
+
+  it('creates an element with the inner text given', () => {
+    const text = 'Hello, world!'
+    const el = create({ tag: 'p', text })
+    expect(el.innerText).to.equal(text)
+  })
 })
