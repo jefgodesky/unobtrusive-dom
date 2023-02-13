@@ -1,6 +1,6 @@
 # unobtrusive-dom
-
-![License: GPL-3.0-only](https://img.shields.io/badge/license-GPL--3.0--only-green)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/jefgodesky/unobtrusive-dom)
+![License: GPL-3.0](https://img.shields.io/github/license/jefgodesky/unobtrusive-dom)
 
 **Progressive enhancement** works very well with an old way of approaching JavaScript that some of us used to call **unobtrusive JavaScript**. The idea was that at not point should the page _depend_ on JavaScript; rather, that JavaScript is always an _enhancement_. If everything goes well, you get a better experience, but if JavaScript fails for any reason (as it so often does, [for so many reasons](https://www.kryogenix.org/code/browser/everyonehasjs.html)) you still get the basic parts of the page.
 
