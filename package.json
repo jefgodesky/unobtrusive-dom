@@ -25,6 +25,7 @@
     "build": "npx tsc"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
     "@types/chai": "^4.3.4",
     "@types/jsdom-global": "^3.0.4",
     "@types/mocha": "^10.0.1",
