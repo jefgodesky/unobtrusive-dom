@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "description": "A collection of common unobtrusive DOM manipulation methods.",
-  "main": "dist/index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jefgodesky/unobtrusive-dom.git"
@@ -22,7 +23,7 @@
     "test": "npm-run-all lint mocha",
     "mocha": "mocha",
     "lint": "ts-standard",
-    "build": "npx tsc"
+    "build": "rollup -c"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
