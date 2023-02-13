@@ -1,0 +1,5 @@
+export { default as addClass } from './add-class'
+export { default as create } from './create'
+export { default as hasClass } from './has-class'
+export { default as removeClass } from './remove-class'
+export { default as toggleClass } from './toggle-class'
