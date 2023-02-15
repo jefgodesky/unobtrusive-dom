@@ -1,6 +1,7 @@
 # unobtrusive-dom
-![npm version](https://img.shields.io/npm/v/unobtrusive-dom)
+[![npm version](https://img.shields.io/npm/v/unobtrusive-dom?style=flat-square)](https://www.npmjs.com/package/unobtrusive-dom)
 ![License: GPL-3.0](https://img.shields.io/github/license/jefgodesky/unobtrusive-dom)
+![License: GPL-3.0](https://img.shields.io/github/license/jefgodesky/unobtrusive-dom?style=flat-square)
 
 A library of commonly-used functions for [unobtrusive](https://en.wikipedia.org/wiki/Unobtrusive_JavaScript) client-side JavaScript (which is particularly helpful for [progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement)).
 
