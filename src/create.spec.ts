@@ -45,4 +45,12 @@ describe('create', () => {
     expect(el.getAttribute('id')).to.equal(options.attrs.id)
     expect(el.innerText).to.equal(options.text)
   })
+
+  it('overrides text with children', () => {
+    const text = 'Hello, world!'
+    const child = create({ tag: 'p', text })
+    const parent = create({ tag: 'div', children: [child], text })
+    expect(parent.outerHTML).to.equal('<div><p></p></div>')
+    expect((parent.children[0] as HTMLParagraphElement)?.innerText).to.equal(text)
+  })
 })
