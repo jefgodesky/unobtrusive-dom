@@ -3,7 +3,7 @@ interface CreateOptions {
   attrs?: {
     [key: string]: string
   }
-  children?: NodeListOf<HTMLElement | Text> | (HTMLElement | Text)[]
+  children?: NodeListOf<HTMLElement | Text> | Array<HTMLElement | Text>
   classes?: string[]
   text?: string
 }
