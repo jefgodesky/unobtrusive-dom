@@ -1,6 +1,6 @@
 {
   "name": "unobtrusive-dom",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "module",
   "description": "A collection of common unobtrusive DOM manipulation methods.",
   "main": "dist/cjs/index.js",

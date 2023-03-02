@@ -1,7 +1,7 @@
 import { expect } from 'chai'
-import create from './create'
-import hasClass from './has-class'
-import addClass from './add-class'
+import { create } from './create'
+import { hasClass } from './has-class'
+import { addClass } from './add-class'
 
 describe('addClass', () => {
   it('adds a class to an element', () => {

@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import hasClass from './has-class'
+import { hasClass } from './has-class'
 
 describe('hasClass', () => {
   it('returns true if the element has the class', () => {
