@@ -8,7 +8,7 @@ interface CreateOptions {
   text?: string
 }
 
-const create = (options: CreateOptions): HTMLElement => {
+export default function (options: CreateOptions): HTMLElement {
   const { tag, classes, attrs, children, text } = options
   const el = document.createElement(tag)
   if (classes !== undefined) el.classList.add(...classes)
@@ -25,4 +25,4 @@ const create = (options: CreateOptions): HTMLElement => {
   return el
 }
 
-export { create, CreateOptions }
+export { CreateOptions }

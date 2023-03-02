@@ -1,6 +1,6 @@
 import { expect } from 'chai'
-import { hasClass } from './has-class'
-import { create } from './create'
+import hasClass from './has-class'
+import create from './create'
 
 describe('create', () => {
   it('creates an element', () => {

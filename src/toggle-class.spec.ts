@@ -1,7 +1,7 @@
 import { expect } from 'chai'
-import { create } from './create'
-import { hasClass } from './has-class'
-import { toggleClass } from './toggle-class'
+import create from './create'
+import hasClass from './has-class'
+import toggleClass from './toggle-class'
 
 describe('toggleClass', () => {
   it('adds a class to an element that doesn\'t have it', () => {

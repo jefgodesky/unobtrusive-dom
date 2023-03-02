@@ -1,7 +1,7 @@
 import { expect } from 'chai'
-import { create } from './create'
-import { hasClass } from './has-class'
-import { removeClass } from './remove-class'
+import create from './create'
+import hasClass from './has-class'
+import removeClass from './remove-class'
 
 describe('removeClass', () => {
   it('removes a class from an element', () => {
