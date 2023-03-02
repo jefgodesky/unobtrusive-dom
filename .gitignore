@@ -1,5 +1,6 @@
 # Ignore built files
-dist
+esm
+cjs
 
 # ignore node_modules
 node_modules
