@@ -14,7 +14,8 @@ export default {
     {
       file: pkg.module,
       format: 'esm',
-      sourcemap: true
+      sourcemap: true,
+      name: pkg.name
     }
   ],
   plugins: [

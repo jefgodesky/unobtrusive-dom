@@ -5,6 +5,12 @@
   "description": "A collection of common unobtrusive DOM manipulation methods.",
   "main": "cjs/index.js",
   "module": "esm/index.js",
+  "exports": {
+    ".": {
+      "require": "./cjs/index.js",
+      "import": "./esm/index.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jefgodesky/unobtrusive-dom.git"
