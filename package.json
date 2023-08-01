@@ -3,6 +3,7 @@
   "version": "0.2.1",
   "type": "module",
   "description": "A collection of common unobtrusive DOM manipulation methods.",
+  "keywords": ["Unobtrusive Javascript", "Progressive Enhancement", "DOM Manipulation"],
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "exports": {
